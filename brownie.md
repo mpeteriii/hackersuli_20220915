@@ -88,3 +88,7 @@ solc-select use 0.8.10
 
 Solidity Visual Developer
 
+## Ganache + Brownie
+
+alias evm-console='brownie console --network mainnet-fork'
+alias evm-ganache='ganache-cli --hardfork istanbul --fork https://mainnet.infura.io/v3/$INFURA_KEY -i 80000000'
